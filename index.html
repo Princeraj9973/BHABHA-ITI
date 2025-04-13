@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bhabha ITI Private Limited</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet" /> 
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Inter', sans-serif;
+      background: linear-gradient(120deg, #e0f7fa, #fff);
+      color: #676565;
+      scroll-behavior: smooth;
+      line-height: 1.6;
+    }
+    
+header {
+  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), 
+              url('it.jpg') center/cover no-repeat;
+  color: rgba(237, 228, 228, 0.986);
+  padding: 120px 20px 100px;
+  text-align: center;
+}
+
+    }
+    header h1 {
+      font-size: 4rem;
+      font-weight: 700;
+      margin-bottom: 10px;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      background: #00796b;
+      padding: 15px 0;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 25px;
+      font-size: 1.1rem;
+      font-weight: 600;
+      transition: all 0.3s ease;
+    }
+    nav a:hover {
+      color: #ffeb3b;
+    }
+    section {
+      max-width: 1200px;
+      margin: 60px auto;
+      padding: 60px;
+      background: #ffffff;
+      border-radius: 18px;
+      box-shadow: 0 12px 30px rgba(0,0,0,0.1);
+      animation: fadeUp 0.8s ease;
+    }
+    @keyframes fadeUp {
+      from { opacity: 0; transform: translateY(40px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    h2 {
+      font-size: 2.8rem;
+      color: #00796b;
+      margin-bottom: 30px;
+      border-bottom: 3px solid #00796b;
+      display: inline-block;
+      padding-bottom: 5px;
+    }
+    .course {
+      display: flex;
+      gap: 40px;
+      flex-wrap: wrap;
+    }
+    .course div {
+      flex: 1 1 45%;
+      background: #e0f2f1;
+      padding: 30px;
+      border-radius: 14px;
+      border: 2px solid #00796b;
+      transition: transform 0.3s;
+    }
+    .course div:hover {
+      transform: translateY(-5px);
+    }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    .gallery img {
+      width: 100%;
+      border-radius: 14px;
+      transition: 0.4s;
+      object-fit: cover;
+      height: 180px;
+    }
+    .gallery img:hover {
+      transform: scale(1.05);
+      box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+    }
+    .testimonial {
+      font-style: italic;
+      background: #fff8e1;
+      padding: 25px;
+      border-left: 6px solid #5fb8ae;
+      border-radius: 12px;
+      margin: 40px 0;
+    }
+    iframe {
+      width: 100%;
+      height: 350px;
+      border: none;
+      border-radius: 12px;
+      margin-top: 20px;
+    }
+    footer {
+      text-align: center;
+      background: #263238;
+      color: #f1f1f1;
+      padding: 40px 10px;
+      font-size: 1rem;
+    }
+
+ <!-- Add this to your <style> section -->
+  .members {
+    max-width: 1200px;
+    margin: 60px auto;
+    padding: 60px;
+    background: #ffffff;
+    border-radius: 18px;
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.1);
+    animation: fadeUp 0.8s ease;
+  }
+
+  .members h2 {
+    font-size: 2.5rem;
+    color: #00796b;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+
+  .members-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+    list-style: none;
+    padding: 0;
+  }
+
+  .members-list li {
+    text-align: center;
+    flex: 1 1 200px;
+  }
+
+  .members-list img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid #00796b;
+    margin-bottom: 15px;
+    transition: transform 0.3s;
+  }
+
+  .members-list img:hover {
+    transform: scale(1.05);
+  }
+
+  .members-list strong {
+    display: block;
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+  }
+
+  .members-list div {
+    color: #722121;
+  }
+  </style>
+</head>
+<body>
+  <header>
+
+     
+    <h1>Bhabha private ITI Limited</h1>
+    <p>Paijuna, Mokama, Bihar</p>
+  </header>
+
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#about">About Us</a>
+    <a href="#courses">Courses</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#admission">Admission</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="home">
+    <h2>Welcome to Bhabha ITI</h2>
+    <p>
+      Bhabha private ITI  Limited is a premier institute offering hands-on technical education in Electrician and Fitter trades. We aim to shape skilled professionals ready for modern industries.
+    </p>
+   
+  </section>
+
+  <section id="about">
+    <h2>About Us</h2>
+    <p>
+      Located in the heart of Bihar, Bhabha ITI was established to meet the growing demand for industry-ready professionals. We focus on practical learning, modern facilities, and expert instructors to deliver quality vocational training.
+    </p>
+  </section>
+
+  <section id="courses">
+    <h2>Courses Offered</h2>
+    <div class="course">
+      <div>
+        <h3>Electrician</h3>
+        <p>
+          Dive into the world of electricity—from wiring systems and circuits to equipment repair. This course equips students with all necessary skills to work confidently as professional electricians.
+        </p>
+      </div>
+      <div>
+        <h3>Fitter</h3>
+        <p>
+          Learn to assemble and maintain machinery with precision. This program focuses on technical drawings, metal cutting, welding, and installation techniques essential for mechanical operations.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section id="gallery">
+    <h2>Our Campus & Facilities</h2>
+    <div class="gallery">
+      <img src="classroom.jpg"alt="Classroom">
+      <img src="clasroom3.jpg" alt="classroom">
+      <img src="workshop.jpg" alt="workshop">
+      <img src="workshop2.jpg" alt="workshop">
+      <img src="it.jpg"alt="campus view">
+      <img src="lathe.jpg" alt="machine">
+      <img src="lathe1.jpg" alt="machine">
+      <img src="teacher1.jpg" alt="teacher">
+
+       </div>
+  </section>
+
+  <section id="admission">
+    <h2>Admission</h2>
+    <p>
+      Admission is open for the current academic session. Visit our campus or contact us to learn more about eligibility, important dates, and the admission process. Let Bhabha ITI be the stepping stone to your career in technical trades.
+    </p>
+  </section>
+ <section id="members" class="members">
+  <h2>Meet Our Team Member</h2>
+  <ul class="members-list">
+     <li>
+      <img src="fufa.jpg" alt="Ravindra Yadav">
+      <div>
+        <strong>Ravindra Yadav</strong>
+        Director
+      </div>
+    </li>
+    <li>
+      <img src="nitish.jpg" alt="Nitish kumar">
+      <div>
+        <strong>Nitish kumar</strong>
+        Adminstrator
+      </div>
+    </li>
+    <li>
+      <img src="bharat.jpg" alt="Bharat kumar">
+      <div>
+        <strong>Bharat kumar</strong>
+        Supervisor
+      </div>
+    </li>
+    <li>
+    <img src="rahul.jpg" alt="Rahul kumar">
+    <div>
+      <strong>Rahul kumar
+      </strong>Instructor
+    </div>
+    </li>
+    <li>
+      <img src="shivchndra.jpg" alt="Ravindra Yadav">
+      <div>
+        <strong>Shivchandra kumar</strong>
+        Principal
+      </div>
+    </li>
+  </ul>
+</section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p><strong>Address:</strong> Paijuna, Mokama, Bihar pin=803302</p>
+    <p><strong>Phone:</strong>7643964085,9097011492</p>
+   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3464.743281990565!2d85.88314980000001!3d25.3516528!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f26d8ac2dfc483%3A0x88f1e62c0b2e1839!2sBhabha%20ITI%20collage!5e1!3m2!1sen!2sin!4v1743880841338!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </section>
+
+  <footer>
+    &copy; <script>document.write(new Date().getFullYear())</script> Bhabha private ITI Limited.
+  </footer>
+</body>
+</html>
